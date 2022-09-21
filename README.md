@@ -11,7 +11,7 @@ Note – For windows follow the tutorial and then directly jump to working with 
 Note – For Linux, download and run the script - linux.sh
 
     •	Change the file permission using $chmod +x macbook.sh
-    •	Run the script $./terraform.sh
+    •	Run the script $./macbook.sh
     •	Verify terraform from any directory using $terraform –version
 
 **Note - Step 2 and Step 3 are not mandatory**

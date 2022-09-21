@@ -4,7 +4,7 @@ This repo contains a demo terraform code which can be used to test and understan
 
 Install Terraform - https://learn.hashicorp.com/tutorials/terraform/install-cli
 **
-Note – For windows follow the tutorial and then directly jump to step - https://www.youtube.com/watch?v=Cn6xYf0QJME**
+Note – For windows follow the tutorial and then directly jump to working with the code section - https://www.youtube.com/watch?v=Cn6xYf0QJME**
 
 •	If you’re using MacBook, create a file using $vi terraform.sh
 •	Paste the script code in the file and save by pressing esc [Button] + wq! + Enter [Button]
@@ -41,7 +41,8 @@ Note - Step 2 and Step 3 are not mandatory**
 
 2.	Install AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 3.	Configure AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
-Working with Code
+
+    Working with Code
 
 1.	On MAC, open terminal and create a file using the command $vi main.tf and paste code mentioned in the Github repo.
 2.	Save by pressing esc [Button] + wq! + Enter [Button]

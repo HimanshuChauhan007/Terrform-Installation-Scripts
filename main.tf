@@ -11,13 +11,10 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
+  # shared_config_files      = ["/Users/user_name/.aws/config"] #Suggested method to call for configuration
+  # shared_credentials_files = ["/Users/user_name/.aws/credentials"] #Suggested method to call for credentials
 }
 
-# provider "aws" {
-#   region = "us-east-1"
-#   # shared_config_files      = ["/Users/himanshu_singh_chauhan/.aws/config"]
-#   # shared_credentials_files = ["/Users/himanshu_singh_chauhan/.aws/credentials"] #Best method to call on credentials
-# }
 
 variable "subnet_prefix" {
   description = "cidr block for the subnet"  ##Referenced from terraform.tfvars
@@ -50,9 +47,6 @@ resource "aws_subnet" "subnet-2" {
     Name = var.subnet_prefix[1].name #Referenceed from terraform.tfvars
   }
 }
-
-
-
 
 
 

@@ -21,13 +21,10 @@ Note – For Linux, download and run the script - linux.sh
 
 **Working with Code**
 
-1.	On MAC, open terminal and create a file using the command $vi main.tf and paste code mentioned in the Github repo.
-2.	Save by pressing esc [Button] + wq! + Enter [Button]
-3.	Create another file $vi terraform.tfvars and paste code from mentioned Github repo.
-4.	Save the code by pressing ESC key and then typing $ wq!
-5.	Jump to the directory location where you saved the files i.e., main.tf and terraform.tfvars
-6.	Run $terraform init [To initiate terraform libraries]
-7.	Run $terraform validate [To validate your code]
-8.	Run $terraform plan [It will showcase what will be created]
-9.	Run $terraform apply [It will create the infrastructure]
-10.	Run $terraform destroy [It will destroy the created infrastructure]
+Download the files, main.tf and terraform.tfvars and place them in a folder/directory or choice	
+Jump to the directory or folder location on the terminal where you saved the files i.e., main.tf and terraform.tfvars
+Run $terraform init [To initiate terraform libraries]
+Run $terraform validate [To validate your code]
+Run $terraform plan [It will showcase what will be created]
+Run $terraform apply [It will create the infrastructure]
+Run $terraform destroy [It will destroy the created infrastructure]

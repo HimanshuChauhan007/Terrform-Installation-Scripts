@@ -21,10 +21,15 @@ Note – For Linux, download and run the script - linux.sh
 
 **Working with Code**
 
-1.	Download the files, main.tf and terraform.tfvars and place them in a folder/directory or choice
-2.	Jump to the directory or folder location on the terminal where you saved the files i.e., main.tf and terraform.tfvars
-3.	Run $terraform init [To initiate terraform libraries]
-4.	Run $terraform validate [To validate your code]
-5.	Run $terraform plan [It will showcase what will be created]
-6.	Run $terraform apply [It will create the infrastructure]
-7.	Run $terraform destroy [It will destroy the created infrastructure]
+1.	Create a role in AWS with programmatic access [terraform_admin], assign the necessary permissions for the services you wish to deploy and save the credentials file securely 
+2.	Download the files, main.tf and terraform.tfvars from this repo and place them in a folder/directory of choice
+3.	Jump to the directory or folder location on the terminal where you saved the files i.e., main.tf and terraform.tfvars
+4.	Provide your AWS credentials by running below mentioned commands in terminal
+    •	export AWS_ACCESS_KEY_ID=”access key”
+    •	export AWS_SECRET_ACCESS_KEY=”secret key”
+    •	export AWS_REGION=”us-east-1”
+5.	Run $terraform init [To initiate terraform libraries]
+6.	Run $terraform validate [To validate your code]
+7.	Run $terraform plan [It will showcase what will be created]
+8.	Run $terraform apply [It will create the infrastructure]
+9.	Run $terraform destroy [It will destroy the created infrastructure]

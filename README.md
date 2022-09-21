@@ -21,10 +21,10 @@ Note – For Linux, download and run the script - linux.sh
 
 **Working with Code**
 
-Download the files, main.tf and terraform.tfvars and place them in a folder/directory or choice	
-Jump to the directory or folder location on the terminal where you saved the files i.e., main.tf and terraform.tfvars
-Run $terraform init [To initiate terraform libraries]
-Run $terraform validate [To validate your code]
-Run $terraform plan [It will showcase what will be created]
-Run $terraform apply [It will create the infrastructure]
-Run $terraform destroy [It will destroy the created infrastructure]
+1.	Download the files, main.tf and terraform.tfvars and place them in a folder/directory or choice
+2.	Jump to the directory or folder location on the terminal where you saved the files i.e., main.tf and terraform.tfvars
+3.	Run $terraform init [To initiate terraform libraries]
+4.	Run $terraform validate [To validate your code]
+5.	Run $terraform plan [It will showcase what will be created]
+6.	Run $terraform apply [It will create the infrastructure]
+7.	Run $terraform destroy [It will destroy the created infrastructure]

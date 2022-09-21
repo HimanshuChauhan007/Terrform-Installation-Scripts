@@ -14,12 +14,12 @@ Note – For Linux, download and run the script - linux.sh
     •	Run the script $./terraform.sh
     •	Verify terraform from any directory using $terraform –version
 
-Note - Step 2 and Step 3 are not mandatory
+**Note - Step 2 and Step 3 are not mandatory**
 
 2.	Install AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 3.	Configure AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 
-    Working with Code
+**Working with Code**
 
 1.	On MAC, open terminal and create a file using the command $vi main.tf and paste code mentioned in the Github repo.
 2.	Save by pressing esc [Button] + wq! + Enter [Button]

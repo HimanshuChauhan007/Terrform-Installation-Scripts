@@ -3,41 +3,18 @@ This repo contains a demo terraform code which can be used to test and understan
 
 
 Install Terraform - https://learn.hashicorp.com/tutorials/terraform/install-cli
-**
-Note – For windows follow the tutorial and then directly jump to working with the code section - https://www.youtube.com/watch?v=Cn6xYf0QJME**
 
-•	If you’re using MacBook, create a file using $vi terraform.sh
-•	Paste the script code in the file and save by pressing esc [Button] + wq! + Enter [Button]
+Note – For windows follow the tutorial and then directly jump to working with the code section - https://www.youtube.com/watch?v=Cn6xYf0QJME
 
-    #!/bin/bash
-    # dowload
-    cd /tmp
-    LATEST_TAG=$(curl -sL https://api.github.com/repos/hashicorp/terraform/releases/latest | grep tag_name)
-    VERSION=$(echo $LATEST_TAG | grep -Eo "(\d+\.)+\d+")
-    curl -OL https://releases.hashicorp.com/terraform/${VERSION}/terraform_${VERSION}_darwin_amd64.zip
+    •	If you’re using MacBook, download and run the script - macbook.sh
 
-    # install
-    unzip terraform_${VERSION}_darwin_amd64.zip
-    mv terraform /usr/local/bin/
-**
-Note – For Linux only change the code in the script rest of steps will remain the same.** 
+Note – For Linux, download and run the script - linux.sh
 
-    #!/bin/bash
-    # dowload
-    cd /tmp
-    LATEST_TAG=$(curl -sL https://api.github.com/repos/hashicorp/terraform/releases/latest | grep tag_name)
-    VERSION=$(echo $LATEST_TAG | grep -Eo "(\d+\.)+\d+")
-    curl -OL https://releases.hashicorp.com/terraform/${VERSION}/terraform_${VERSION}_linux_amd64.zip
+    •	Change the file permission using $chmod +x macbook.sh
+    •	Run the script $./terraform.sh
+    •	Verify terraform from any directory using $terraform –version
 
-    # install
-    unzip terraform_${VERSION}_linux_amd64.zip
-    mv terraform /usr/local/bin/
-
-•	Change the file permission using $chmod +x terraform.sh
-•	Run the script $./terraform.sh
-•	Verify terraform from any directory using $terraform –version
-**
-Note - Step 2 and Step 3 are not mandatory**
+Note - Step 2 and Step 3 are not mandatory
 
 2.	Install AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 3.	Configure AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html

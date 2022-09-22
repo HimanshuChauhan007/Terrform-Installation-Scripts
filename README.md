@@ -6,11 +6,11 @@ Install Terraform - https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 Note – For windows follow the tutorial and then directly jump to working with the code section - https://www.youtube.com/watch?v=Cn6xYf0QJME
 
-    •	If you’re using MacBook, download and run the script - macbook.sh
+    •	If you’re using MacBook, download and run the script - terraform_install_macos.sh
 
-Note – For Linux, download and run the script - linux.sh
+Note – For Linux, download and run the script - terraform_install_linux.sh
 
-    •	Change the file permission using $chmod +x macbook.sh
+    •	Change the file permission using $chmod +x terraform_install_macos.sh
     •	Run the script $./macbook.sh
     •	Verify terraform from any directory using $terraform –version
 

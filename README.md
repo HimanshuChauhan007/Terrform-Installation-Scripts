@@ -26,9 +26,9 @@ Note – For Linux, download and run the script - terraform_install_linux.sh
 3.	Jump to the directory or folder location on the terminal where you saved the files i.e., main.tf and terraform.tfvars
 4.	Provide your AWS credentials by running below mentioned commands in terminal
 
-        •	export AWS_ACCESS_KEY_ID=”access key”
-        •	export AWS_SECRET_ACCESS_KEY=”secret key”
-        •	export AWS_REGION=”us-east-1”
+      •	 export AWS_ACCESS_KEY_ID=”access key”
+      •	 export AWS_SECRET_ACCESS_KEY=”secret key”
+      •	 export AWS_REGION=”us-east-1”
         
 5.	Run $terraform init [To initiate terraform libraries]
 6.	Run $terraform validate [To validate your code]

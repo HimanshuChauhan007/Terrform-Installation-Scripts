@@ -11,7 +11,7 @@ Note – For windows follow the tutorial and then directly jump to working with 
 Note – For Linux, download and run the script - terraform_install_linux.sh
 
     •	Change the file permission using $chmod +x terraform_install_macos.sh
-    •	Run the script $./macbook.sh
+    •	Run the script $./terraform_nstall_macos.sh
     •	Verify terraform from any directory using $terraform –version
 
 **Note - Step 2 and Step 3 are not mandatory**
